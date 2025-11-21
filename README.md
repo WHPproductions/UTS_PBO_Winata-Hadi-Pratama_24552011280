@@ -1,18 +1,23 @@
-## Getting Started
+## Identitas Mahasiswa
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Nama  : Winata Hadi Pratama  
+NIM   : 24552011280  
+Kelas : TIF RP 24D  
+Dosen Pengampu : Gia Yuliana, S.Kom.  
+Mata Kuliah : Pemograman Berorientasi Objek 1
 
-## Folder Structure
+## Cara Membuka Projek ini
 
-The workspace contains two folders by default, where:
+1. Install project
+2. Buka project dengan [Visual Studio Code ![vs code logo](./assets/vscode_logo.png)](https://code.visualstudio.com/)
+3. Jalankan class [Main.java](./src/Main.java)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Aplikasi Paket Wisata
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+(Deskripsi)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Dokumen-dokumen Tugas
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+[Dokumen soal](./assets/Dokumen%20Tugas/dosen_gyl_UTS_file_exam_25261%20TIF%20RP%2024D%20IF-015%20Soal%20UAS%20TIF%20RP%2024D.pdf)  
+[Dokumen jawaban (docx)](./assets/Dokumen%20Tugas/UTS_PBO_Winata%20Hadi%20Pratama%20(24552011280).docx)  
+Dokumen jawaban (PDF)  
