@@ -1,6 +1,11 @@
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
+/**
+ * Kelas yang merepresentasikan paket wisata alam.
+ * Kelas ini merupakan subclass dari PaketWisata.
+ */
+
 public class WisataAlam extends PaketWisata {
     // Tingkat konservasi alam. Ini menentukan seberapa ketat aturan konservasi di
     // area wisata alam tersebut.
@@ -19,11 +24,12 @@ public class WisataAlam extends PaketWisata {
         PANDAK_GUNUNG
     }
 
-    // contoh field spesifik untuk paket wisata alam
+    // Atribut-atribut tambahan untuk paket wisata alam
     private TingkatKonservasi tingkatKonservasi;
     private JenisAktivitasAlam jenisAktivitasAlam;
     private String deskripsiWaspada = null; // deskripsi tentang potensi bahaya alam bila ada
 
+    // Konstruktor
     public WisataAlam(
             String namaPaket,
             String lokasi,
@@ -80,6 +86,7 @@ public class WisataAlam extends PaketWisata {
         this.deskripsiWaspada = deskripsiWaspada;
     }
 
+    // Method untuk memperbarui seluruh atribut paket wisata alam
     public void updatePaketWisataAlam(
             String namaPaket,
             String lokasi,
@@ -101,6 +108,8 @@ public class WisataAlam extends PaketWisata {
         this.deskripsiWaspada = deskripsiWaspada;
     }
 
+    // Override method toString untuk menampilkan info paket wisata alam dengan
+    // format yang rapi
     @Override
     public String toString() {
         SimpleDateFormat fmt = new SimpleDateFormat("dd-MM-yyyy");

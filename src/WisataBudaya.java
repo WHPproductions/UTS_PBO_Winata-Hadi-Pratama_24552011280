@@ -1,8 +1,13 @@
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
+/**
+ * Kelas yang merepresentasikan paket wisata budaya.
+ * Kelas ini merupakan subclass dari PaketWisata.
+ */
+
 public class WisataBudaya extends PaketWisata {
-    // Jenis budaya yang menjadi fokus utama dalam paket wisata budaya
+    // Jenis budaya yang menjadi fokus utama penampilan dalam paket wisata budaya
     public enum JenisBudaya {
         TARI,
         FESTIVAL,
@@ -11,9 +16,10 @@ public class WisataBudaya extends PaketWisata {
         KERAJINAN
     }
 
-    // Attributes
+    // Atribut-atribut tambahan untuk paket wisata budaya
     private JenisBudaya jenisBudaya;
 
+    // Konstruktor
     public WisataBudaya(
             String namaPaket,
             String lokasi,
@@ -54,6 +60,8 @@ public class WisataBudaya extends PaketWisata {
         this.jenisBudaya = jenisBudaya;
     }
 
+    // Override method toString untuk menampilkan info paket wisata budaya dengan
+    // format yang rapi
     @Override
     public String toString() {
         SimpleDateFormat fmt = new SimpleDateFormat("dd-MM-yyyy");

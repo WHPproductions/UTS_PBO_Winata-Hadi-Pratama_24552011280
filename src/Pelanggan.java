@@ -1,12 +1,20 @@
 import java.util.List;
 
+/**
+ * Kelas yang merepresentasikan pelanggan.
+ */
+
 public class Pelanggan {
+    // Atribut-atribut pelanggan
     private int idPelanggan;
     private String nama;
     private String alamat;
     private String noTelp;
-    List<PaketWisata> paketDiambil;
 
+    // List paket wisata yang diambil oleh pelanggan
+    private List<PaketWisata> paketDiambil;
+
+    // Konstruktor
     public Pelanggan(
             int idPelanggan,
             String nama,
@@ -79,6 +87,9 @@ public class Pelanggan {
         paketDiambil.remove(index);
     }
 
+    // Override method toString untuk menampilkan info pelanggan dengan format yang
+    // rapi
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("========================================\n");
